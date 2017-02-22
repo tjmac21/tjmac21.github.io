@@ -25,19 +25,19 @@ h1 {
 
 span {
   display: inline-block;
-  animation: stretch $chars*$duration $bounce infinite;
+  animation: stretch 2.5s cubic-bezier(.4,1.4,.75,.9) infinite;
   transform-origin: center;
   
-  @for $i from 1 through $chars {
+  @for $i from 1 through 10 {
     &:nth-of-type(#{$i}) {
-      animation-delay: $i*$duration;
+      animation-delay: $i*.25s;
     }
   }
 }
   
 @keyframes stretch {
   5% { 
-    transform: scaleX($scale);
+    transform: scaleX(5000);
     opacity: .1;
   }
   15% { 
