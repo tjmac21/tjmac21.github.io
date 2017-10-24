@@ -1,3 +1,6 @@
+For testing changes locally see development environment info below
+To publish your changes to GitHub Pages run $ npm run build (this runs webpack -p for production) to update the build, then $ git commit and $ git push to make your changes live
+
 # Single Page Apps for GitHub Pages
 
 GitHub Pages with React.js using spa-github-pages
