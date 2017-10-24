@@ -39,7 +39,7 @@ export default function App() {
           touchActive={{}}
           touchActiveTapOnly
         >
-          Made in React.js
+          Made in React.js by <span {...s.childLink}>TJ Macalanda</span>
         </Interactive>
       </div>
     </div>
