@@ -31,6 +31,7 @@ export default function App() {
       </Switch>
 
       <div style={s.creditLine}>
+          Made in React.js by
         <Interactive
           as="a"
           href="https://github.com/tjmac21/"
@@ -38,8 +39,7 @@ export default function App() {
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
-        >
-          Made in React.js by <span {...s.childLink}>TJ Macalanda</span>
+        ><span {...s.childLink}>TJ Macalanda</span>
         </Interactive>
       </div>
     </div>
