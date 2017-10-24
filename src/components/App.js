@@ -17,7 +17,7 @@ export default function App() {
         href="https://github.com/tjmac21/tjmac21.github.io"
         style={s.repoLink}
         {...s.link}
-      >https://github.com/tjmac21/tjmac21.github.io</Interactive>
+      >Link to the source code of this site</Interactive>
 
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
