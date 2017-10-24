@@ -30,7 +30,7 @@ class Resume extends React.Component {
               exact path="/resume"
               render={() => (
                 <div>
-                  <ExamplePageText />
+                  <ResumeText />
                   <div style={s.pageLinkContainer}>
                     <Interactive
                       as={Link}

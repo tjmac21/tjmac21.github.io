@@ -11,7 +11,7 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
+      <h1 style={s.title}>TJ's Portfolio</h1>
       <Interactive
         as="a"
         href="https://github.com/tjmac21/tjmac21.github.io"
