@@ -41,7 +41,7 @@ class Projects extends React.Component {
               exact path="/projects/reflow-oven"
               render={({ location }) => (
                 <div>
-                  <ExamplePageText />
+                  <ProjectsText />
                   <ReflowOven location={location} />
                 </div>
               )}
