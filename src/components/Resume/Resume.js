@@ -20,7 +20,7 @@ class Resume extends React.Component {
                 <div>
                   <ResumeText />
                   <div style={s.pageLinkContainer}>
-                    <a target="_blank" href="../pdfs/TJ_MAC_resume.pdf" >CV</a>
+                    <a target="_blank" href="../pdf/TJ_MAC_resume.pdf" >CV</a>
                   </div>
                 </div>
               )}
