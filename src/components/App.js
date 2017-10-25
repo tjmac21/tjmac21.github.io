@@ -4,6 +4,9 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import ExampleComponent from './ExampleComponent';
 import Resume from './Resume';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 import PageNotFound from './PageNotFound';
 import Breadcrumbs from './Breadcrumbs';
 import s from '../styles/app.style';
@@ -27,6 +30,9 @@ export default function App() {
         <Route exact path="/" component={Home} />
         <Route path="/example" component={ExampleComponent} />
         <Route path="/resume" component={Resume} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
         <Route component={PageNotFound} />
       </Switch>
 

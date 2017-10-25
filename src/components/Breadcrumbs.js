@@ -9,6 +9,9 @@ const breadCrumbTitles = {
   example: 'Example',
   'two-deep': 'Two Deep',
   'resume': 'Resume',
+  'about': 'About',
+  'projects': 'Projects',
+  'contact': 'Contact'
 };
 
 function BreadcrumbsItem({ match }) {
