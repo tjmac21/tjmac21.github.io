@@ -18,8 +18,8 @@ class Contact extends React.Component {
         return (
           <Switch>
             <Route
-              exact path="/example/two-deep"
-              render={({ location }) => (
+              exact path="/contact"
+              render={() => (
                 <div>
                   <ContactText />
                   <form action="https://formspree.io/tjmacu@gmail.com" method="POST">
@@ -27,22 +27,6 @@ class Contact extends React.Component {
                     <input type="email" name="_replyto" />
                     <input type="submit" value="Send" />
                   </form>
-                  <ExampleTwoDeepComponent location={location} />
-                </div>
-              )}
-            />
-            <Route
-              exact path="/contact"
-              render={() => (
-                <div>
-                  <ContactText />
-                  <div style={s.pageLinkContainer}>
-                    <Interactive
-                      as={Link}
-                      {...s.link}
-                      to="/example/two-deep?field1=foo&field2=bar#boom!"
-                    >Example two deep with query and hash</Interactive>
-                  </div>
                 </div>
               )}
             />

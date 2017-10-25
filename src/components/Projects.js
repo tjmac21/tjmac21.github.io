@@ -27,7 +27,7 @@ class Projects extends React.Component {
               )}
             />
             <Route
-              exact path="/resume"
+              exact path="/projects"
               render={() => (
                 <div>
                   <div style={s.pageLinkContainer}>

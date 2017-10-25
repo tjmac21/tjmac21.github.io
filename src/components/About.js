@@ -18,26 +18,10 @@ class About extends React.Component {
         return (
           <Switch>
             <Route
-              exact path="/example/two-deep"
-              render={({ location }) => (
-                <div>
-                  <AboutText />
-                  <ExampleTwoDeepComponent location={location} />
-                </div>
-              )}
-            />
-            <Route
               exact path="/about"
               render={() => (
                 <div>
                   <AboutText />
-                  <div style={s.pageLinkContainer}>
-                    <Interactive
-                      as={Link}
-                      {...s.link}
-                      to="/example/two-deep?field1=foo&field2=bar#boom!"
-                    >Example two deep with query and hash</Interactive>
-                  </div>
                 </div>
               )}
             />
