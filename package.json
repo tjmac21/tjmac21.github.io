@@ -2,7 +2,7 @@
   "name": "TJportfolio",
   "version": "5.1.0",
   "private": true,
-  "description": "TJ's Personal Website in React",
+  "description": "TJ's Portfolio in React",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
     "build": "webpack -p"
