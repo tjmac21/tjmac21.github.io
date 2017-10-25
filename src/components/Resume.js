@@ -22,6 +22,7 @@ class Resume extends React.Component {
               render={({ location }) => (
                 <div>
                   <ResumeText />
+                  [Intro.pdf](http://www.tjmacu.com/pdfs/TJ_MAC_resume.pdf)
                   <ExampleTwoDeepComponent location={location} />
                 </div>
               )}

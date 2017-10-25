@@ -22,6 +22,11 @@ class Contact extends React.Component {
               render={({ location }) => (
                 <div>
                   <ContactText />
+                  <form action="https://formspree.io/tjmacu@gmail.com" method="POST">
+                    <input type="text" name="name" />
+                    <input type="email" name="_replyto" />
+                    <input type="submit" value="Send" />
+                  </form>
                   <ExampleTwoDeepComponent location={location} />
                 </div>
               )}

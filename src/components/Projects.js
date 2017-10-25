@@ -46,4 +46,4 @@ class Projects extends React.Component {
     }
 }
 
-export default Resume;
+export default Projects;

@@ -45,14 +45,14 @@ export default function Home() {
           as={Link}
           {...s.link}
           to="/projects"
-        >Resume Page</Interactive>
+        >Projects</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
           {...s.link}
           to="/contact"
-        >Resume Page</Interactive>
+        >Contact</Interactive>
       </div>
     </div>
   );
