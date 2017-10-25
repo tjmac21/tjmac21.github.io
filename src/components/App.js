@@ -37,7 +37,7 @@ export default function App() {
       </Switch>
 
       <div style={s.creditLine}>
-          Made in React.js by
+          Made in React.js by&nbsp;
         <Interactive
           as="a"
           href="https://github.com/tjmac21/"

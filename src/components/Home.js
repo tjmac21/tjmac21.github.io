@@ -10,7 +10,7 @@ export default function Home() {
       <p style={s.p}>
         This is page is made through Github Pages and built
         with React and React&nbsp;Router using {' '}
-        <Code>BrowserRouter</Code>. It's also made by you's truely.
+        <Code>BrowserRouter</Code>. It's also made by your's truely.
       </p>
       <div style={s.pageLinkContainer}>
         <Interactive
