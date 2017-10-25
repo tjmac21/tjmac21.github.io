@@ -1,8 +1,8 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
-import PageNotFound from './PageNotFound';
-import s from '../styles/exampleComponent.style';
+import PageNotFound from '../PageNotFound';
+import s from '../../styles/exampleComponent.style';
 
 const ResumeText = () => (
     <p style={s.p}>

@@ -7,10 +7,14 @@ import s from '../styles/style';
 const breadCrumbTitles = {
   '': 'Home',
   example: 'Example',
-  'two-deep': 'Two Deep',
+    'two-deep': 'Two Deep',
   'resume': 'Resume',
   'about': 'About',
   'projects': 'Projects',
+    'solar-mate': 'Solar Mate',
+    'reflow-oven': 'Reflow Oven',
+    'trump-wall': 'Trump Wall',
+    '2-dof-heli': '2 DoF Helicopter',
   'contact': 'Contact'
 };
 
