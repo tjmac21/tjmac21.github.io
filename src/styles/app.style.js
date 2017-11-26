@@ -7,7 +7,7 @@ s.root = {
   fontWeight: '300',
   fontSize: '16px',
   letterSpacing: '0.025em',
-  padding: '3vh 0 12vh 0',
+  padding: '15vh 0 12vh 0',
   width: '500px',
   // use responsive max-width to simulate padding/margin to allow
   // space for vertical scroll bar without creating horizontal scroll bar
@@ -18,7 +18,7 @@ s.root = {
   // note: vw/vh include the width of scroll bars. Note that centering using margin auto
   // or % (which doesn't include scroll bars, so changes when scroll bars shown) causes a page jump
   position: 'relative',
-  left: '50vw',
+  left: '55vw',
   WebkitTransform: 'translate(-50%, 0)',
   MozTransform: 'translate(-50%, 0)',
   msTransform: 'translate(-50%, 0)',
@@ -45,7 +45,7 @@ s.breadcrumbs = {
 };
 
 s.creditLine = {
-  color: '#A0A0A0',
+  color: '#19B5FE',
   fontSize: '14px',
   marginTop: '50px',
 };

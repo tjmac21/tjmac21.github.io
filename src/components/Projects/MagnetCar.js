@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ReflowOven({ location }) {
+export default function MagnetCar({ location }) {
 
   return (
     <div>

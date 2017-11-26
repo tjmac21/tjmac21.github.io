@@ -5,6 +5,8 @@ import SolarMate from './SolarMate';
 import ReflowOven from './ReflowOven';
 import TrumpWall from './TrumpWall';
 import TwoDoFHeli from './TwoDoFHeli';
+import MagnetCar from './MagnetCar';
+import WatchThrone from './WatchThrone';
 import PageNotFound from '../PageNotFound';
 import s from '../../styles/exampleComponent.style';
 
@@ -32,7 +34,6 @@ class Projects extends React.Component {
               exact path="/projects/trump-wall"
               render={({ location }) => (
                 <div>
-                  <ProjectsText />
                   <TrumpWall location={location} />
                 </div>
               )}
@@ -41,7 +42,6 @@ class Projects extends React.Component {
               exact path="/projects/reflow-oven"
               render={({ location }) => (
                 <div>
-                  <ProjectsText />
                   <ReflowOven location={location} />
                 </div>
               )}
@@ -50,8 +50,23 @@ class Projects extends React.Component {
               exact path="/projects/2-dof-heli"
               render={({ location }) => (
                 <div>
-                  <ProjectsText />
                   <TwoDoFHeli location={location} />
+                </div>
+              )}
+            />
+            <Route
+              exact path="/projects/magnet-car"
+              render={({ location }) => (
+                <div>
+                  <MagnetCar location={location} />
+                </div>
+              )}
+            />
+            <Route
+              exact path="/projects/watch-the-throne"
+              render={({ location }) => (
+                <div>
+                  <WatchThrone location={location} />
                 </div>
               )}
             />
@@ -85,7 +100,21 @@ class Projects extends React.Component {
                       as={Link}
                       {...s.link}
                       to="/projects/2-dof-heli"
-                    >2 degrees of freedom helicopter</Interactive>
+                    >2 Degrees of Freedom Helicopter</Interactive>
+                  </div>
+                  <div style={s.pageLinkContainer}>
+                    <Interactive
+                      as={Link}
+                      {...s.link}
+                      to="/projects/magnet-car"
+                    >Magnetic Tethering Remote Control Car</Interactive>
+                  </div>
+                  <div style={s.pageLinkContainer}>
+                    <Interactive
+                      as={Link}
+                      {...s.link}
+                      to="/projects/watch-the-throne"
+                    >Watch the Throne</Interactive>
                   </div>
                 </div>
               )}

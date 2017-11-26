@@ -21,6 +21,9 @@ class About extends React.Component {
               render={() => (
                 <div>
                   <AboutText />
+                  <div style={s.pageLinkContainer}>
+                    <a target="_blank" href="../pdf/TJ_MAC_resume.pdf" >CV</a>
+                  </div>
                 </div>
               )}
             />

@@ -30,8 +30,8 @@ export default function Home() {
         <Interactive
           as={Link}
           {...s.link}
-          to="/resume"
-        >Resume</Interactive>
+          to="/sandbox"
+        >Sandbox</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive

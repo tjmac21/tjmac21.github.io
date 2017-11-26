@@ -6,16 +6,18 @@ import s from '../styles/style';
 
 const breadCrumbTitles = {
   '': 'Home',
-  example: 'Example',
-    'two-deep': 'Two Deep',
-  'resume': 'Resume',
+  'example': 'Example',
+  'two-deep': 'Two Deep',
+  'sandbox': 'Sandbox',
   'about': 'About',
   'projects': 'Projects',
-    'solar-mate': 'Solar Mate',
-    'reflow-oven': 'Reflow Oven',
-    'trump-wall': 'Trump Wall',
-    '2-dof-heli': '2 DoF Helicopter',
-  'contact': 'Contact'
+  'solar-mate': 'Solar Mate',
+  'reflow-oven': 'Reflow Oven',
+  'trump-wall': 'Trump Wall',
+  '2-dof-heli': '2 DoF Helicopter',
+  'magnet-car': 'Magnetic Tethering Remote Control Car',
+  'watch-the-throne': 'Watch The Throne',
+  'contact': 'Contact',
 };
 
 function BreadcrumbsItem({ match }) {
