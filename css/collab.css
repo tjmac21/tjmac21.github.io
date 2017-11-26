@@ -1,6 +1,6 @@
-html {
-  background: url("../img/background.png") fixed #fff no-repeat -15% 100%;
-  background-size: 55%;
+body {
+  background: url("../img/background.png") fixed #fff no-repeat -5% 35%;
+  background-size: 40%;
 }
 
 .social-icons .fa {

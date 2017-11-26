@@ -41,13 +41,14 @@ s.repoLink = {
 };
 
 s.breadcrumbs = {
-  margin: '3vh 0',
+  margin: 'auto',
 };
 
 s.creditLine = {
   color: '#19B5FE',
-  fontSize: '14px',
+  fontSize: '12px',
   marginTop: '50px',
+  float: 'left',
 };
 
 export default s;

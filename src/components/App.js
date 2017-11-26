@@ -14,6 +14,7 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div>
+        <h2 className="header-top">tj mac.</h2>
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
       </nav>
@@ -28,18 +29,30 @@ export default function App() {
         <Route component={PageNotFound} />
       </Switch>
     </div>
-          <div style={s.creditLine}>
-              Made in React.js by&nbsp;
-            <Interactive
-              as="a"
-              href="https://github.com/tjmac21/"
-              interactiveChild
-              focus={{}}
-              touchActive={{}}
-              touchActiveTapOnly
-            ><span {...s.childLink}>TJ Macalanda</span>
-            </Interactive>
-          </div>
+    <div style={s.creditLine}>
+        Made in React.js by&nbsp;
+      <Interactive
+        as="a"
+        href="https://github.com/tjmac21/"
+        interactiveChild
+        focus={{}}
+        touchActive={{}}
+        touchActiveTapOnly
+      ><span {...s.childLink}>TJ Macalanda</span>
+      </Interactive>
+    </div>
+    
+    <div style={{marginTop: '50px',color: 'rgb(25, 181, 254)',float: 'right'}}>
+      <Interactive
+        as="a"
+        href="https://paypal.me/tjmacu/5"
+        interactiveChild
+        focus={{}}
+        touchActive={{}}
+        touchActiveTapOnly
+      ><span {...s.childLink}>Contribute to my beer fund</span>
+      </Interactive>
+    </div>
     </div>
   );
 }
